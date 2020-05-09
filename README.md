@@ -3,7 +3,9 @@
 ## Install
 
 ```bash
-$ npm i x-deepClone --save
+$ npm i x-deep-clone
+
+import deepClone from 'x-deep-clone'
 ```
 
 ## test
