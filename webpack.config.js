@@ -6,7 +6,10 @@ module.exports = {
     entry: './src/index.ts',
     output: {
         path: path.resolve(__dirname, 'dist'),
+        publicPath: '/dist/',
         filename: 'index.js',
+        libraryExport: 'default',
+        libraryTarget: 'commonjs2',
     },
     module: {
         rules: [

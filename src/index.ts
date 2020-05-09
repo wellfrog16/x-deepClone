@@ -15,7 +15,6 @@ import deepClone from './lib/deepClone';
 
 // console.log(a);
 // console.log(deepClone(a));
-// console.log('------------');
 // console.log(b);
 // console.log(deepClone(b));
 

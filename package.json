@@ -1,9 +1,9 @@
 {
-  "name": "deep-clone",
-  "version": "1.0.0",
+  "name": "x-deep-clone",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/polyfill": "^7.7.0",
@@ -35,5 +35,11 @@
     "eslint": "eslint */**/*.ts"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "files": [
+    "dist",
+    "src",
+    "template"
+  ],
+  "dependencies": {}
 }
